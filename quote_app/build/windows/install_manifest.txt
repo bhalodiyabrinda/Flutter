@@ -1,0 +1,10 @@
+D:/Flutter/quote_app/build/windows/runner/Debug/data/icudtl.dat
+D:/Flutter/quote_app/build/windows/runner/Debug/flutter_windows.dll
+D:/Flutter/quote_app/build/windows/runner/Debug/data/flutter_assets/AssetManifest.bin
+D:/Flutter/quote_app/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+D:/Flutter/quote_app/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+D:/Flutter/quote_app/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+D:/Flutter/quote_app/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+D:/Flutter/quote_app/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
+D:/Flutter/quote_app/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+D:/Flutter/quote_app/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

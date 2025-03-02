@@ -1,0 +1,28 @@
+^D:\FLUTTER\QUOTE_APP\BUILD\WINDOWS\CMAKEFILES\E398CDA431B29D3D76390522900CD69A\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env "FLUTTER_ROOT=C:\Users\Brinda Bhalodiya\Downloads\flutter_windows_3.13.7-stable\flutter" PROJECT_DIR=D:\Flutter\quote_app "FLUTTER_ROOT=C:\Users\Brinda Bhalodiya\Downloads\flutter_windows_3.13.7-stable\flutter" FLUTTER_EPHEMERAL_DIR=D:\Flutter\quote_app\windows\flutter\ephemeral PROJECT_DIR=D:\Flutter\quote_app FLUTTER_TARGET=D:\Flutter\quote_app\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9hNzk0Y2YyNjgxYzZjOWZlN2IyNjBlMGU4NGRlOTYyOThkYzljMThiLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\Flutter\quote_app\.dart_tool\package_config.json "C:/Users/Brinda Bhalodiya/Downloads/flutter_windows_3.13.7-stable/flutter/packages/flutter_tools/bin/tool_backend.bat" windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\FLUTTER\QUOTE_APP\BUILD\WINDOWS\CMAKEFILES\6C2F322FBCFC9A011B6443882A271473\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\FLUTTER\QUOTE_APP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter/quote_app/windows -BD:/Flutter/quote_app/build/windows --check-stamp-file D:/Flutter/quote_app/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,57 @@
+import 'dart:async';
+
+import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Screen/dashboard_screen.dart';
+import 'package:flutter_application_1/Screen/login_screen.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
+class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
+
+  @override
+  State<SplashScreen> createState() => _SplashScreenState();
+}
+
+class _SplashScreenState extends State<SplashScreen> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    Timer(Duration(seconds: 2), () async {
+      final SharedPreferences prefs = await SharedPreferences.getInstance();
+      var user = await prefs.getString('user') ?? "";
+      if (user != null && user != "") 
+      {
+        Navigator.push(
+          context,
+            MaterialPageRoute(
+              builder: (context) => DashboardScreen()
+            ),
+        );
+      }else{
+        Navigator.push(
+          context,
+            MaterialPageRoute(
+              builder: (context) => LoginScreen()),
+        );
+      } 
+    }
+  );
+}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        body: Column(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Text(
+          'My Ecom App',
+          style: TextStyle(fontSize: 60),
+        ),
+        Text('Created by RKU Student')
+      ],
+    ));
+  }
+}
